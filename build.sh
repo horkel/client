@@ -1,7 +1,8 @@
 #!/bin/bash
 
 pacman -Syy
-pacman -S wget zsh git which awk --noconfirm
+pacman -S core/util-linux wget which awk grep --noconfirm
+pacman -S zsh git --noconfirm
 
 mkdir /root/.cache
 chown -R root:root /root/.config/ /root/.zshrc /root/.i18n

@@ -5,11 +5,12 @@
 ### 构建镜像
 
 ```
-docker build -t horkel/client:2019.09.26 .
+tar -zcvf zsh.tar.gz -C zsh/ .
+docker build -t horkel/client:2020.10.30 .
 ```
 
 ### 推送镜像
 
 ```
-docker push horkel/client:2019.09.26
+docker push horkel/client:2020.10.30
 ```
